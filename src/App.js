@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Container from "./Container";
 
 function App() {
   return (
@@ -7,16 +8,17 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <b>useMemo</b> Skipping expensive recalculations.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://hashnode.com/@Richa000"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Join me to Learn React
         </a>
+        <Container />
       </header>
     </div>
   );
